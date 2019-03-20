@@ -16,7 +16,7 @@ namespace SalesWebMvc.Data
             _context = context;
         }
 
-        public void Seed()
+        /*public void Seed()
         {
             // verifica se tem algum registro nas tabelas.
             //if (_context.Department.Any() || _context.Seller.Any() || _context.SalesRecord.Any()) return;
@@ -80,6 +80,6 @@ namespace SalesWebMvc.Data
 
             _context.SaveChanges();
 
-        }
+        }*/
     }
 }
