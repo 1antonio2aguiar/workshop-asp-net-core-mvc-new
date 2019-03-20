@@ -26,5 +26,4 @@ namespace SalesWebMvc.Services
             _context.SaveChanges();
         }
     }
-
 }
