@@ -20,4 +20,5 @@ namespace SalesWebMvc.Services
             return _context.Seller.ToList();
         }
     }
+
 }
