@@ -18,7 +18,8 @@ namespace SalesWebMvc.Models
 
         [Required(ErrorMessage = "Infome a data de nascimento")]
         [Display(Name = "Nascimento")]
-        [DataType(DataType.Date)]
+        //[DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime BirthDate { get; set; }
 
         [Required(ErrorMessage = "Infome salário base")]
